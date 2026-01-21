@@ -1,3 +1,70 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://NicholasBHubbard.github.io/"
+languageCode = "en-us"
+title = "Nicholas B. Hubbard"
+theme = "vintage-web"
+
+enableRobotsTXT = true
+canonifyURLs = true
+relativeURLs = false
+
+# Content behavior
+paginate = 10
+summaryLength = 40
+
+# Markdown behavior (keep it classic)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Menus
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Poems"
+    url = "/poems/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+# Theme parameters
+[params]
+  author = "Your Name"
+  description = "Notes, writing, and code."
+
+  # Vintage-web specific knobs
+  darkMode = true
+  monospace = true
+  showFooter = true
+  showDate = true
+  showReadingTime = false
+
+  # Disable modern fluff
+  enableSearch = false
+  enableTags = true
+  enableCategories = false
+
+  # Footer text
+  footerText = "© Your Name · Built with Hugo"
+
+# Taxonomies (minimal, but useful)
+[taxonomies]
+  tag = "tags"
+
+# Output formats (no JSON feeds, no nonsense)
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+  page = ["HTML"]
