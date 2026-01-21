@@ -1,6 +1,6 @@
 baseURL = "https://NicholasBHubbard.github.io/"
 languageCode = "en-us"
-title = "Nicholas B. Hubbard"
+title = "Nicholas B. Hubbard's Personal Site"
 theme = "vintage-web-hugo-theme"
 
 enableRobotsTXT = true

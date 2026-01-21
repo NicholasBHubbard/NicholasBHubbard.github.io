@@ -4,4 +4,4 @@ I am a software engineer that is passionate about [free software](https://www.fs
 
 [GitLab](https://gitlab.com/NicholasBHubbard)
 
-[Public keys](https://github.com/NicholasBHubbard/public-keys)
+[Keys](https://github.com/NicholasBHubbard/public-keys)
