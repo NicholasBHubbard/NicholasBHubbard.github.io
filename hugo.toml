@@ -43,14 +43,6 @@ summaryLength = 40
 
   show_welcome_message = false
 
-  # Vintage-web-hugo-theme specific knobs
-  darkMode = true
-  monospace = true
-  showFooter = true
-  showDate = true
-  showReadingTime = false
-  showWordCount = false
-
   # Disable modern fluff
   enableSearch = false
   enableTags = false
