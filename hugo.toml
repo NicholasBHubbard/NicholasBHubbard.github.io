@@ -57,7 +57,7 @@ summaryLength = 40
   enableCategories = false
 
   # Footer text
-  footerText = "© Your Name · Built with Hugo"
+  footerText = "Nicholas B. Hubbard"
 
 # Taxonomies (minimal, but useful)
 [taxonomies]
