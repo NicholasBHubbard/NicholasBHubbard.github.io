@@ -8,8 +8,10 @@ canonifyURLs = true
 relativeURLs = false
 
 # Content behavior
-paginate = 10
 summaryLength = 40
+[pagination]
+  pagerSize = 10
+  path = "page"
 
 # Markdown behavior (keep it classic)
 [markup]
@@ -61,3 +63,6 @@ summaryLength = 40
   taxonomy = ["HTML"]
   term = ["HTML"]
   page = ["HTML"]
+
+# Disable taxonomies
+[taxonomies]
