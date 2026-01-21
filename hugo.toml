@@ -1,6 +1,6 @@
 baseURL = "https://NicholasBHubbard.github.io/"
 languageCode = "en-us"
-title = ""
+title = "Nicholas B. Hubbard"
 theme = "vintage-web-hugo-theme"
 
 enableRobotsTXT = true
@@ -55,7 +55,7 @@ summaryLength = 40
   enableCategories = false
 
   # Footer text
-  footerText = "Nicholas B. Hubbard"
+  footerText = ""
 
 # Output formats (no JSON feeds, no nonsense)
 [outputs]
