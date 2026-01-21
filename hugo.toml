@@ -59,9 +59,8 @@ summaryLength = 40
   # Footer text
   footerText = "Nicholas B. Hubbard"
 
-# Taxonomies (minimal, but useful)
+# Disable Taxonomies
 [taxonomies]
-  tag = "tags"
 
 # Output formats (no JSON feeds, no nonsense)
 [outputs]
