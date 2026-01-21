@@ -50,7 +50,7 @@ summaryLength = 40
 
   # Disable modern fluff
   enableSearch = false
-  enableTags = true
+  enableTags = false
   enableCategories = false
 
   # Footer text
@@ -60,9 +60,7 @@ summaryLength = 40
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
-  taxonomy = ["HTML"]
-  term = ["HTML"]
   page = ["HTML"]
-
+  
 # Disable taxonomies
 [taxonomies]
