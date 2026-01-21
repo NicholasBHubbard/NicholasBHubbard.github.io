@@ -1,4 +1,4 @@
-I am a software engineer that is passionate about both open source and free software.
+I am a software engineer interested in both open source and free software.
 
 My favorite software projects include Emacs, Slackware, and Perl.
 
