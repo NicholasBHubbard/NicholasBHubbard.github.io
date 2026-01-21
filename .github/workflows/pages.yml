@@ -27,11 +27,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.125.7"
+          hugo-version: "0.154.5"
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
