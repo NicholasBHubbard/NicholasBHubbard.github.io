@@ -41,6 +41,9 @@ summaryLength = 40
   author = "Nicholas B. Hubbard"
   description = "Notes, writing, and code."
 
+  showWelcomeMessage = true
+  welcomeMessage = "test welcome message"
+
   # Vintage-web-hugo-theme specific knobs
   darkMode = true
   monospace = true
