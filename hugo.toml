@@ -43,7 +43,6 @@ summaryLength = 40
 
   show_welcome_message = false
 
-  # Disable modern fluff
   enableSearch = false
   enableTags = false
   enableCategories = false
