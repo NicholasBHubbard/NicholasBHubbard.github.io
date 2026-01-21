@@ -11,21 +11,6 @@
             </li>
             {{ end }}
 
-            <!-- Add categories and tags to main menu -->
-            {{ $categories := .Site.GetPage "/categories" }}
-            {{ if $categories }}
-            <li class="nav-item">
-                <a href="{{ $categories.Permalink | absLangURL }}" class="nav-link">📂 Categories</a>
-            </li>
-            {{ end }}
-
-            {{ $tags := .Site.GetPage "/tags" }}
-            {{ if $tags }}
-            <li class="nav-item">
-                <a href="{{ $tags.Permalink | absLangURL }}" class="nav-link">🏷️ Tags</a>
-            </li>
-            {{ end }}
-
         {{ else }}
             <!-- Auto-generated menu items if no menu is defined -->
             <li class="nav-item">
@@ -50,20 +35,6 @@
             {{ if $contact }}
             <li class="nav-item">
                 <a href="{{ $contact.Permalink }}" class="nav-link">📧 Contact</a>
-            </li>
-            {{ end }}
-
-            {{ $categories := .Site.GetPage "/categories" }}
-            {{ if $categories }}
-            <li class="nav-item">
-                <a href="{{ $categories.Permalink | absLangURL }}" class="nav-link">📂 Categories</a>
-            </li>
-            {{ end }}
-
-            {{ $tags := .Site.GetPage "/tags" }}
-            {{ if $tags }}
-            <li class="nav-item">
-                <a href="{{ $tags.Permalink | absLangURL }}" class="nav-link">🏷️ Tags</a>
             </li>
             {{ end }}
         {{ end }}
