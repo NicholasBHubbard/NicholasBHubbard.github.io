@@ -41,8 +41,8 @@ summaryLength = 40
   author = "Nicholas B. Hubbard"
   description = "Notes, writing, and code."
 
-  showWelcomeMessage = true
-  welcomeMessage = "test welcome message"
+  show_welcome_message = true
+  welcome_message = "test welcome message"
 
   # Vintage-web-hugo-theme specific knobs
   darkMode = true
@@ -57,6 +57,10 @@ summaryLength = 40
   enableTags = false
   enableCategories = false
 
+  [params.social]
+    email = "you@example.com"
+    github = "NicholasBHubbard"
+    
   # Footer text
   footerText = ""
 
