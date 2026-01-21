@@ -1,4 +1,4 @@
-I am a software engineer that is passionate about [free software](https://www.fsf.org/).
+I am a software engineer that is passionate about [open source software](https://opensource.org/) and [free software](https://www.fsf.org/).
 
 [GitHub](https://github.com/NicholasBHubbard)
 
