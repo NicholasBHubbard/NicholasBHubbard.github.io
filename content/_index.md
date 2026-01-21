@@ -1,7 +1,8 @@
-I am a software engineer that is passionate about [open source software](https://opensource.org/) and [free software](https://www.fsf.org/).
+I am a software engineer that is passionate about both open source and free software.
 
-[GitHub](https://github.com/NicholasBHubbard)
+My favorite software projects include Emacs, Slackware, and Perl.
 
-[GitLab](https://gitlab.com/NicholasBHubbard)
-
-[Keys](https://github.com/NicholasBHubbard/public-keys)
+Email:  nicholashubbard@posteo.net
+GitHub: https://github.com/NicholasBHubbard
+GitLab: https://gitlab.com/NicholasBHubbard
+Keys:   https://github.com/NicholasBHubbard/public-keys
