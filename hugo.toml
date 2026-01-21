@@ -30,8 +30,8 @@ summaryLength = 40
     weight = 2
 
   [[menu.main]]
-    name = "Poems"
-    url = "/poems/"
+    name = "Writing"
+    url = "/writing/"
     weight = 3
 
 # Theme parameters
