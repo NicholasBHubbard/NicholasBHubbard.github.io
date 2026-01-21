@@ -57,13 +57,13 @@ summaryLength = 40
   enableTags = false
   enableCategories = false
 
+  show_retro_footer = false
+  show_build_info = false
+
   [params.social]
     email = "you@example.com"
     github = "NicholasBHubbard"
     
-  # Footer text
-  footerText = ""
-
 # Output formats (no JSON feeds, no nonsense)
 [outputs]
   home = ["HTML"]
