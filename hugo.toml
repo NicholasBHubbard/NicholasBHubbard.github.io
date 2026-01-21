@@ -1,7 +1,7 @@
 baseURL = "https://NicholasBHubbard.github.io/"
 languageCode = "en-us"
 title = "Nicholas B. Hubbard"
-theme = "vintage-web"
+theme = "vintage-web-hugo-theme"
 
 enableRobotsTXT = true
 canonifyURLs = true
@@ -44,7 +44,7 @@ summaryLength = 40
   author = "Your Name"
   description = "Notes, writing, and code."
 
-  # Vintage-web specific knobs
+  # Vintage-web-hugo-theme specific knobs
   darkMode = true
   monospace = true
   showFooter = true
